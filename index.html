@@ -1,0 +1,570 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="NamdyFit App">
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css">
+    <!-- My own css stylesheet-->
+    <link href="css/bootstrap.styles.css" rel="stylesheet">
+    <title>The Official Website of NamdyFit - Live Fit Love Life</title>
+</head>
+
+<body data-spy="scroll" data-target="#mainNav" data-offset="50">
+    <header>
+        <!-- Navbar-->
+        <nav class="navbar navbar-inverse navbar-fixed-top" id="mainNav" role="navigation">
+            <div class="container">
+                <!-- Brand and toggle get grouped for better mobile display -->
+                <div class="navbar-header" id="pageHeader" role="banner">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+                    <a href="index.html" title="NamdyFit.com" class="navbar-brand">
+            NAMDY<span style="color:maroon;">FIT</span>
+          </a>
+                </div>
+                <!-- End mainNavbar -->
+
+                <!-- Navbar Content -->
+                <div class="collapse navbar-collapse" id="navbar-collapse">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li class="active" role="presentation"><a href="#About" title="About us">About</a></li>
+                        <li role="presentation"><a href="#blog" title="Blog posts">Blog</a></li>
+                        <li class="dropdown" role="presentation"><a href="#onlineTraining" title="Online Coaching" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Programs<span class="caret"></span></a>
+                            <ul class="dropdown-menu" role="menu">
+                                <li role="separator" class="divider"></li>
+                                <li><a href="#">Online Training Programs</a></li>
+                                <li role="separator" class="divider"></li>
+                                <li><a href="#">Nutrition: Macro-coaching</a></li>
+                                <li role="separator" class="divider"></li>
+                                <li><a href="#">One on one coaching</a></li>
+                                <li role="separator" class="divider"></li>
+                            </ul>
+                        </li>
+                        <li role="presentation"><a href="#faq" title="Frequently asked questions">FAQ</a></li>
+                        <li role="presentation"><a href="#contact" title="Contact us">Contact</a></li>
+                        <!-- Login Link-->
+                        <li><a href="#myModal" data-toggle="modal" data-target="#myModal">
+              Login</a></li>
+                    </ul>
+                </div>
+            </div>
+            <!-- End Container-->
+        </nav>
+        <!-- End navbar-->
+    </header>
+
+    <!--Login Modal Form-->
+    <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-hidden="true" style="display: none;">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+                    <h3 class="modal-title" id="modalLabel"><span class="glyphicon glyphicon-lock"></span> Login to Your Acount</h3>
+                </div>
+                <div class="login-modal container">
+                    <div class="modal-body">
+                        <section>
+                            <form class="horizontal">
+                                <div class="form-group col-md-7">
+                                    <label for="inputEmail">Email address</label>
+                                    <input type="email" class="form-control" id="inputEmail" placeholder="Email">
+                                </div>
+
+                                <div class="form-group col-md-7">
+                                    <label for="inputPassword">Password</label>
+                                    <input type="password" class="form-control" id="inputPassword" placeholder="Password">
+                                </div>
+                                <div class="checkbox col-md-7">
+                                    <label><input type="checkbox">Remember me</label>
+                                </div>
+                            </form>
+                        </section>
+                    </div>
+                    <!--modal body-->
+                </div>
+                <!-- login modal Container-->
+                <div class="modal-footer">
+                    <div class="container">
+                        <button type="submit" class="btn btn-info pull-left">Sign in</button>
+                        <button type="button" data-dismiss="modal" class="btn btn-default pull-left">Close</button> Not Registred? <a href="http://www.jquery2dotnet.com">Register here</a>
+                    </div>
+                </div>
+                <!--modal footer-->
+            </div>
+            <!--modal content-->
+        </div>
+        <!--modal dialog-->
+    </div>
+    <!-- modal -->
+
+    <!--..........................................Page Content--------------------------------------->
+    <div class="jumbotron">
+        <div class="container text-center">
+            <h1><strong>Live Fit Love Life</strong></h1>
+            <p> Your online personal trainer platform</p>
+            <p>....no better life than the life your living, choose to live it beautifully, love graciously. life fit love life.</p>
+            <div class="btn-group">
+                <button type="button" class="btn btn-warning" data-toggle="modal" data-target="#policy">
+            Vaccination Policy
+          </button>
+                <div class="modal" id="policy" tabindex="-1" role="dialog" aria-labelledby="modelLabel">
+                    <div class="modal-dialog" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                                <h3 class="modal-title id=" modalLbael "">Vaccination policy</h3>
+                            </div>
+                            <div class="modal-body">
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                                    consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est
+                                    laborum.
+                                </p>
+                            </div>
+                        </div>
+                        <!--modal content-->
+                    </div>
+                    <!--modal dialog-->
+                </div>
+                <!-- modal -->
+                <button type="submit" class="btn btn-warning" role="button"> Sign up </button>
+                <a href="#" class="btn btn-default btn-md" role="button"> Learn more </a>
+            </div>
+        </div>
+        <!--End Container-->
+    </div>
+    <!--End jumbotron-->
+
+    <!--About-->
+    <div class="container-fluid bg-grey">
+        <section>
+            <div class="page-header" id="About">
+                <h2>About.<small> Get to Know Me </small></h2>
+            </div>
+
+            <!-- Creating two column row for-->
+            <div class="row">
+                <!-- column 1-->
+                <div class="col-sm-4">
+                    <img src="assets/img/Namdy fit.jpg" alt="Cardiovascular" class="img-responsive">
+                </div>
+                <!-- column 2-->
+                <div class="col-sm-8">
+                    <h4> Welcome to LiveFit LoveLife an online health and fitness training patform. Our mission is to offer you the client an online user experince in hiring a certified personal trainer. As a personal trainer my goal is to help you achieve
+              your fitness goals. We are dedicated in helping everyone both men and women of all ages in achieving their health and fitness great, we are a community and we stand beside you. "Live Fit Love Life".
+            </h4>
+                    <footer> Coach Namdy Fit </footer>
+                </div>
+            </div>
+            <!--End of Row-->
+        </section>
+    </div>
+    <!--End of Container-->
+
+    <!-- Blog Post -->
+    <div class="container-fluid">
+        <section>
+            <div class="page-header" id="blog">
+                <h2>Blog.<small> Get the latest Fit News </small></h2>
+            </div>
+
+            <!-- Create carouselSlide -->
+            <!-- Carousel dots at the bottom of carousel-->
+            <div class="carousel slide" id="screenshot-carousel" data-ride="carousel">
+                <ol class="carousel-indicators">
+                    <li data-target="#screenshot-carousel" data-slide-to="0" class="active"></li>
+                    <li data-target="#screenshot-carousel" data-slide-to="1"></li>
+                    <li data-target="#screenshot-carousel" data-slide-to="2"></li>
+                    <li data-target="#screenshot-carousel" data-slide-to="3"></li>
+                </ol>
+                <!--Carousel content-->
+                <div class="carousel-inner">
+                    <div class="item active">
+                        <img src="assets/img/Eatright.jpg" alt="Nutrition 101" height="435" width="635">
+                        <div class="carousel-caption">
+                            <h3> Nutrition 101 </h3>
+                            <p> What are Macro Nutrients... </p>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <img src="assets/img/Eatright.jpg" alt="Cardiovascular" height="435" width="635">
+                        <div class="carousel-caption">
+                            <h3>Cardiovascular</h3>
+                            <p>Top 10 Beenfits of Cardiovascular Exercises...</p>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <img src="assets/img/Eatright.jpg" alt="Social Media" height="435" width="635">
+                        <div class="carousel-caption">
+                            <h3>Social Media networking</h3>
+                            <p>Making New Friends...</p>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <img src="assets/img/Eatright.jpg" alt="Lifetsyle" height="435" width="635">
+                        <div class="carousel-caption">
+                            <h3>Living Active</h3>
+                            <p>Fitness changed my life...</p>
+                        </div>
+                    </div>
+
+                </div>
+                <!--End Carousel inner-->
+
+                <!-- Carousel arrows-->
+                <a href="#screenshot-carousel" class="left carousel-control" data-slide="prev">
+                    <span class="glyphicon glyphicon-chevron-left"></span>
+                </a>
+                <a href="#screenshot-carousel" class="right carousel-control" data-slide="next">
+                    <span class="glyphicon glyphicon-chevron-right"></span>
+                </a>
+            </div>
+            <!--End Carousel-->
+        </section>
+
+        <!-- Blog Post Call to Action-->
+        <div class=" page-header container text-center">
+            <div class="well">
+                <h3> Sign up for the latest Fit News and Blog post notifications </h3>
+                <form class="form-inline">
+                    <div class="input-group">
+                        <input type="email" class="form-control" size="50" placeholder="Email Address" required>
+                        <div class="input-group-btn">
+                            <button type="button" class="btn btn-danger">Subscribe</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+            <!--End Well-->
+        </div>
+        <!--End Container-->
+    </div>
+    <!--End Blog Post Container-->
+
+    <!-- Programs-->
+    <div class="container text-center">
+        <section>
+            <!--div class="page-header" id="onlineTraining"-->
+            <h2>Programs.<small> Get Started Today </small></h2>
+            <!--/div> <End Page Header-->
+
+            <div class="row">
+                <div class="col-xs-6">
+                    <img src="assets/img//Namdy fit.jpg" class="pro img-thumbnail img-responsive" alt="Image Male">
+                    <div class="carousel-caption">
+                        <h3> This is the Heading </h3>
+                        <p>Lorem electronic</p>
+                    </div>
+                </div>
+                <div class="col-xs-6">
+                    <img src="assets/img//Namdy fit.jpg" class=" img-thumbnail img-responsive" alt="Image female">
+                    <div class="carousel-caption">
+                        <h3> This is the Heading </h3>
+                        <p>Lorem Ipsum</p>
+                    </div>
+                </div>
+            </div>
+            <!--End Row-->
+            <hr>
+            <div class="pageheader">
+                <div class="row">
+                    <div class="col-sm-3 text-center">
+                        <div class="panel panel default">
+                            <div class="panel body">
+                                <span class="glyphicon glyphicon-user logo-small"></span>
+                                <h4> 1 on 1 coaching </h4>
+                                <p> Get in Touch with me </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-3 text-center">
+                        <div class="panel panel default">
+                            <div class="panel body">
+                                <span class="glyphicon glyphicon-calendar logo-small"></span>
+                                <h4> Weekly Check in's </h4>
+                                <p> Progress track, be updated and Informed </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-3 text-center">
+                        <div class="panel panel default">
+                            <div class="panel body">
+                                <span class="glyphicon glyphicon-scale logo-small"></span>
+                                <h4> Training Programs </h4>
+                                <p> Get a professional training program from a certifed personal trainer </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-3 text-center">
+                        <div class="panel panel default">
+                            <div class="panel body">
+                                <span class="glyphicon glyphicon-apple logo-small"></span>
+                                <h4> Nutrition </h4>
+                                <p> Macro Coaching </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--End Row-->
+            </div>
+            <!--End Page Header-->
+        </section>
+    </div>
+    <!--End of Container-->
+
+    <!--elaborate programs>
+      <h2>Programs</h2>
+        <ul>
+          <li>Training Programs</li>
+          <li>Nutrition: MacroCoaching</li>
+          <li>One on One coaching</li>
+        </ul-->
+
+    <!-- Testimonials -->
+    <div class="container">
+        <section>
+            <div class="page-header" id="Testimonials">
+                <h2>Success Stories.<small> Get to hear what our clients think </small></h2>
+            </div>
+
+            <div class="carousel slide" id="stories-carousel" data-ride="carousel">
+                <ol class="carousel-indicators">
+                    <li data-target="#stories-carousel" data-slide-to="0" class="active"></li>
+                    <li data-target="#stories-carousel" data-slide-to="1"></li>
+                    <li data-target="#stories-carousel" data-slide-to="2"></li>
+                    <li data-target="#stories-carousel" data-slide-to="3"></li>
+                </ol>
+                <div class="carousel-inner">
+                    <div class="item active">
+                        <img src="assets/img/clients-banner.jpg" alt="Nutrition 101">
+                        <div class="carousel-caption">
+                            <blockquote class="blockquote-reverse" style="color:black;">
+                                <p>"Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit..."</p>
+                                <footer style="color:black;">Clients name...</footer>
+                            </blockquote>
+                        </div>
+                    </div>
+
+                    <div class="item">
+                        <img src="assets/img/clients-banner.jpg" alt="Cardiovascular">
+                        <div class="carousel-caption">
+                            <blockquote class="blockquote-reverse" style="color:black;">
+                                <p>"Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit..."</p>
+                                <footer style="color:black;">Clients name...</footer>
+                            </blockquote>
+                        </div>
+                    </div>
+
+                    <div class="item">
+                        <img src="assets/img/clients-banner.jpg" alt="Social Media">
+                        <div class="carousel-caption">
+                            <blockquote class="blockquote-reverse" style="color:black;">
+                                <p>"Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit..."</p>
+                                <footer style="color:black;">Clients name...</footer>
+                            </blockquote>
+                        </div>
+                    </div>
+
+                    <div class="item">
+                        <img src="assets/img/clients-banner.jpg" alt="Lifetsyle">
+                        <div class="carousel-caption">
+                            <blockquote class="blockquote-reverse" style="color:black;">
+                                <p>"Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit..."</p>
+                                <footer style="color:black;">Clients name...</footer>
+                            </blockquote>
+                        </div>
+                    </div>
+                </div>
+                <!--End Carousel inner-->
+
+                <a href="#stories-carousel" class="left carousel-control" data-slide="prev">
+                    <span class="glyphicon glyphicon-chevron-left"></span>
+                </a>
+                <a href="#stories-carousel" class="right carousel-control" data-slide="next">
+                    <span class="glyphicon glyphicon-chevron-right"></span>
+                </a>
+            </div>
+            <!--End Carousel-->
+        </section>
+    </div>
+    <!--End Testimonial Container-->
+
+    <!-- Faq -->
+    <!--needs fixing-->
+    <div class="container">
+        <section>
+            <div class="page-header" id="faq">
+                <h2>FAQ.<small> Engaging with consumers.</small></h2>
+            </div>
+            <!-- End Page Header -->
+
+            <div class="panel-group" id="accordion">
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h1 class="panel-title"> Question one?</h1>
+                        <div class="panel-title">
+                            <a href="#collapse-1" data-toggle="collapse" data-parent="#accordion">
+                                <h6> Please contact me and ask any questions you may have. </h6>
+                            </a>
+                        </div>
+                        <!-- End panel title -->
+                        <div id="collapse-1" class="panel-collapse collapse in">
+                            <div class="panel panel-default">
+                                <div class="panel-heading">
+                                    <h2 class="panel-title"> Answer: </h2>
+                                    <div class="panel-body">
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec egestas non urna in fringilla. Praesent consequat est at feugiat faucibus
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- End Panel collapse -->
+
+                        <div class="panel panel-default">
+                            <div class="panel-heading">
+                                <div class="panel-title">
+                                    <a href="#collapse-2" data-toggle="collapse" data-parent="#accordion">
+                        Question Two?
+                      </a>
+                                </div>
+                                <!-- End panel title -->
+                                <div id="collapse-2" class="panel-collapse collapse">
+                                    <div class="panel-body">
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec egestas non urna in fringilla. Praesent consequat est at feugiat faucibus
+                                    </div>
+                                </div>
+                                <!--End Panel collapse-->
+                            </div>
+                        </div>
+
+                        <div class="panel panel-default">
+                            <div class="panel-heading">
+                                <div class="panel-title">
+                                    <a href="#collapse-3" data-toggle="collapse" data-parent="#accordion">
+                        Question Three?
+                      </a>
+                                </div>
+                                <!--End panel title-->
+                                <div id="collapse-3" class="panel-collapse collapse">
+                                    <div class="panel-body">
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec egestas non urna in fringilla. Praesent consequat est at feugiat faucibus
+                                    </div>
+                                </div>
+                                <!--End Panel collapse-->
+                            </div>
+                        </div>
+                    </div>
+                    <!--End panel group-->
+        </section>
+        </div>
+        <!--End container-->
+
+        <!-- Contact -->
+        <div class="container">
+            <section>
+                <div class="page-header" id="contact">
+                    <h2>Contact.<small> Contact for more inquires.</small></h2>
+                </div>
+                <!--End Page Header-->
+
+                <div class="row">
+                    <div class="col-lg-4">
+                        <p>Send me a message, or contact me from the address below:</p>
+                        <hr>
+                        <address><strong>Live Fit Love Life</strong><br>
+                      3792 Collingwood Ln<br>
+                      Oviedo, FL 32765<br>
+                      <abbr title="phone">P:</abbr> +1 (256) 328 3557
+                    </address>
+                        <hr>
+                    </div>
+
+                    <div class="col-lg-8">
+                        <form action="" class="form-horizontal">
+                            <div class="form-group has-success has-feedback">
+                                <label for="user-name" class="col-lg-2 control-label">
+                              Name
+                            </label>
+                                <div class="col-lg-10">
+                                    <input type="text" class="form-control" id="user-name" placeholder="Enter you name">
+                                    <span class="glyphicon glyphicon-ok form-control-feedback"></span>
+                                </div>
+                            </div>
+                            <!--End form group-->
+
+                            <div class="form-group has-success has-feedback">
+                                <label for="user-email" class="col-lg-2 control-label">Email</label>
+                                <div class="col-lg-10">
+                                    <input type="text" class="form-control" id="user-email" placeholder="Enter you Email Address">
+                                    <span class="glyphicon glyphicon-ok form-control-feedback"></span>
+                                </div>
+                            </div>
+                            <!--End form group-->
+
+                            <div class="form-group has-success has-feedback">
+                                <label for="user-url" class="col-lg-2 control-label">Your Website</label>
+                                <div class="col-lg-10">
+                                    <input type="text" class="form-control" id="user-email" placeholder="If you have Any.">
+                                    <span class="glyphicon glyphicon-ok form-control-feedback"></span>
+                                </div>
+                            </div>
+                            <!--End form group-->
+
+                            <div class="form-group">
+                                <label for="user-message" class="col-lg-2 control-label">Any Message</label>
+                                <div class="col-lg-10">
+                                    <textarea name="user-message" id="user-message" class="form-control" cols="20" rows="10" placeholder="Enter your Message"></textarea>
+
+                                </div>
+                            </div>
+                            <!--End form group-->
+
+                            <div class="form-group">
+                                <div class="col-lg-10 col-lg-offset-2">
+                                    <button type="submit" class="btn btn-primary">Submit</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+                <!-- End the row -->
+            </section>
+        </div>
+
+        <hr>
+
+        <!-- Footer -->
+        <footer id="pageFooter" role="contentinfo">
+            <div class="container">
+                <ul class="list-inline text-center">
+                    <li><a href="https://twitter.com/Fran_Namdy">Twitter</a></li>
+                    <li><a href="https://www.facebook.com/namdy.obishai">Facebook</a></li>
+                    <li><a href="https://www.instagram.com/fran_namdy/">Instagram</a></li>
+                </ul>
+                <p class="text-center text-muted credit">&copy; copyright Namdyfit 2016 </p>
+            </div>
+        </footer>
+
+        <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+        <!-- Include all compiled plugins (below), or include individual files as needed -->
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        <!-- My own Script file -->
+        <script src="js/scripts.js"></script>
+</body>
+
+</html>
